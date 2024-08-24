@@ -1,5 +1,5 @@
 class Solution {
-    public List<Integer> preorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal(TreeNode root) {
         ArrayList<Integer> ans=new ArrayList<>();
         Stack<TreeNode> st =new Stack<>();
         if(root!=null) st.push(root);
